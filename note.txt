@@ -1,0 +1,1 @@
+nestjs เป็น module Framework สำหรับจัดการ API เพื่อพัฒนาทางด้าน Backend โดยค่อนข้างมีไลบราลี่ทางด้าน Backend โดยเฉพาะ
