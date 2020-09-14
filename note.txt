@@ -2,3 +2,6 @@
 
 nestjs เป็น module Framework สำหรับจัดการ API เพื่อพัฒนาทางด้าน Backend โดยค่อนข้างมีไลบราลี่ทางด้าน Backend โดยเฉพาะ
 
+- โครงสร้าง Project 
+
+1 controller แทน แอป 1 โมดูล
