@@ -3,6 +3,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TodoModule } from './todo/todo.module'; // import module todo
 
+
+//The root module of the application.
+
+
 @Module({
   imports: [TodoModule],
   controllers: [AppController],
