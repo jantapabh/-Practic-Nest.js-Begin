@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TodoModule } from './todo/todo.module'; // import module todo
+import { CatsController } from './cats/cats.controller';
 
 
 //The root module of the application.
@@ -9,7 +10,7 @@ import { TodoModule } from './todo/todo.module'; // import module todo
 
 @Module({
   imports: [TodoModule],
-  controllers: [AppController],
+  controllers: [AppController, CatsController],
   providers: [AppService],
 })
 export class AppModule {}
