@@ -1,5 +1,8 @@
 import { NestFactory } from '@nestjs/core';
+import { from } from 'rxjs';
 import { AppModule } from './app.module';
+import {SwaggerModule, DocumentBuilder} from '@nestjs/swagger';
+
 
 //The entry file of the application which uses the core function NestFactory to create a Nest application instance.
 
