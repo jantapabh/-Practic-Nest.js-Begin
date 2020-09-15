@@ -6,7 +6,7 @@ import { CatsController } from './cats/cats.controller';
 
 
 //The root module of the application.
-
+// เป็นไฟล์ของโมดูลแรกที่ถูกเรียกใช้งานจากนั้นจะ รmport โมดูลต่าง ๆ มาใช้
 
 @Module({
   imports: [TodoModule],
