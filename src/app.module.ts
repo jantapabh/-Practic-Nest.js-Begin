@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { TodoModule } from './todo/todo.module'; // import module todo
 import { CatsController } from './cats/cats.controller';
 // import {BookModule} from './book/book..module';
+import { BookModule } from './book/book.module';
 
 
 
@@ -11,7 +12,7 @@ import { CatsController } from './cats/cats.controller';
 // เป็นไฟล์ของโมดูลแรกที่ถูกเรียกใช้งานจากนั้นจะ รmport โมดูลต่าง ๆ มาใช้
 
 @Module({
-  imports: [TodoModule],
+  imports: [TodoModule, BookModule],
   controllers: [AppController, CatsController],
   providers: [AppService],
 })
