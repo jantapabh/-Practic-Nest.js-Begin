@@ -1,10 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { TodoModule } from './todo/todo.module'; // import module todo
-import { CatsController } from './cats/cats.controller';
-// import {BookModule} from './book/book..module';
-import { BookModule } from './book/book.module';
+
 
 
 
@@ -12,10 +9,11 @@ import { BookModule } from './book/book.module';
 // เป็นไฟล์ของโมดูลแรกที่ถูกเรียกใช้งานจากนั้นจะ รmport โมดูลต่าง ๆ มาใช้
 
 @Module({
-  imports: [TodoModule, BookModule],
-  controllers: [AppController, CatsController],
+  imports: [],
+  controllers: [AppController],
   providers: [AppService],
 })
+
 export class AppModule {}
 
 //ส่วนติดตั้ง Package, module
