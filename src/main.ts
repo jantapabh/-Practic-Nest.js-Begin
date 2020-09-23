@@ -10,7 +10,6 @@ import * as cors from 'cors';
 // เป็นไฟล์ config web server
 
 async function bootstrap() {
-
   //NestFactory.create จะทำการสร้าง NestJS Application โดยเบื้องต้นจะใช้ Express ในการทำงาน
   const app = await NestFactory.create(AppModule);
   app.setGlobalPrefix('api');
